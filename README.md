@@ -3,12 +3,45 @@ A disassembler for Roblox's new bytecode format. This is still in development an
 
 # Supported op codes
 
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+- [x] OGETENV / GETGLOBAL
+- [x] LOADNUMBER
+- [x] LOADK
+- [x] MOVE
+- [x] FORPREP
+- [x] FORLOOP
+- [x] CLEARSTACK
+- [x] CALL
+- [x] RETURN
+- [x] LOADNIL
+- [ ] VARARG
+- [ ] LT
+- [ ] TEST
+- [ ] JMP
+- [ ] EQ
+- [ ] NEQ
+- [ ] GETUPVAL
+- [ ] SETUPVAL
+- [ ] CLOSURE
+- [ ] SETENV / SETGLOBAL
+- [ ] ADD
+- [ ] NOT
+- [ ] MOD
+- [ ] CONCAT
+- [ ] GETTABLEK
+- [ ] LOADBOOL
+- [ ] LE
+- [ ] MUL
+- [ ] DIV
+- [ ] SUB
+- [ ] SETTABLEK
+- [ ] NLT
+- [ ] CLOSE
+- [ ] ADDK
+- [ ] MULK
+- [ ] TESTOR
+- [ ] NEWTABLE
+- [ ] TESTAND
+- [ ] SELF
+- [ ] POWK
+- [ ] UNM
+- [ ] LEN
