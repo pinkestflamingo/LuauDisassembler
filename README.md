@@ -21,6 +21,11 @@ local constantPool = {
 [0039]  FORLOOP { 0, 247, 255 }         \   R[0] += R[0 + 2]
 [003D]  RETURN  { 0, 1, 0 }         \   return
 ```
+
+# [1.1.0] - 26 May 2021
+- [x] Added OP_CONCAT
+- [x] Fixed OP_CALL return registry names
+
 # Supported op codes
 
 - [x] OGETENV / GETGLOBAL
@@ -33,6 +38,7 @@ local constantPool = {
 - [x] CALL
 - [x] RETURN
 - [x] LOADNIL
+- [x] CONCAT
 - [ ] VARARG
 - [ ] LT
 - [ ] TEST
@@ -46,7 +52,6 @@ local constantPool = {
 - [ ] ADD
 - [ ] NOT
 - [ ] MOD
-- [ ] CONCAT
 - [ ] GETTABLEK
 - [ ] LOADBOOL
 - [ ] LE
