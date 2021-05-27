@@ -26,7 +26,7 @@ local constantPool = {
 - [x] Function number displayed in output
 - [x] Function information displayed in output
 
-# [1.1.0] - 26 May 2021
+## [1.1.0] - 26 May 2021
 - [x] Added OP_CONCAT
 - [x] Fixed OP_CALL return registry names
 
