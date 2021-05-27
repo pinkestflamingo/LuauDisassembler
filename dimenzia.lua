@@ -112,7 +112,12 @@ for i = 1, Protos do
     local numUpvalues   = tonumber(parsedBytes:get_and_pop(), 16)
     local isVarArg      = tonumber(parsedBytes:get_and_pop(), 16)
     local numInstructs  = tonumber(parsedBytes:get_and_pop(), 16)
-    
+    print("-= FUNCTION " .. tostring(i) .. " =-\n")
+    print(".isVarArg", (isVarArg == "1" and "true" or "false"))
+    print(".size", maxStackSize)
+    print(".instruction(s)", numInstructs)
+    print(".param(s)", numParameters)
+    print(".upvalue(s)", numUpvalues)
     local i2 = 1
     local c_idx = 0
     local LastA = 0
