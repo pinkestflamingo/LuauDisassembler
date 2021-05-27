@@ -22,6 +22,10 @@ local constantPool = {
 [003D]  RETURN  { 0, 1, 0 }         \   return
 ```
 
+# [1.1.1] - 27 May 2021
+- [x] Function number displayed in output
+- [x] Function information displayed in output
+
 # [1.1.0] - 26 May 2021
 - [x] Added OP_CONCAT
 - [x] Fixed OP_CALL return registry names
