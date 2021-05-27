@@ -22,7 +22,16 @@ local constantPool = {
 [003D]  RETURN  { 0, 1, 0 }         \   return
 ```
 
-# [1.1.1] - 27 May 2021
+# [1.1.2] - 27 May 2021
+- [x] OP_ADD is supported
+- [x] OP_SUB is supported
+- [x] OP_MUL is supported
+- [x] OP_DIV is supported
+- [x] OP_POW is supported
+- [x] OP_MOD is supported
+- [x] OP_LEN is supported
+
+## [1.1.1] - 27 May 2021
 - [x] Function number displayed in output
 - [x] Function information displayed in output
 
@@ -43,6 +52,13 @@ local constantPool = {
 - [x] RETURN
 - [x] LOADNIL
 - [x] CONCAT
+- [x] LEN
+- [x] ADD
+- [x] SUB
+- [x] MUL
+- [x] DIV
+- [x] POW
+- [x] MOD
 - [ ] VARARG
 - [ ] LT
 - [ ] TEST
@@ -53,15 +69,10 @@ local constantPool = {
 - [ ] SETUPVAL
 - [ ] CLOSURE
 - [ ] SETENV / SETGLOBAL
-- [ ] ADD
 - [ ] NOT
-- [ ] MOD
 - [ ] GETTABLEK
 - [ ] LOADBOOL
 - [ ] LE
-- [ ] MUL
-- [ ] DIV
-- [ ] SUB
 - [ ] SETTABLEK
 - [ ] NLT
 - [ ] CLOSE
@@ -73,4 +84,3 @@ local constantPool = {
 - [ ] SELF
 - [ ] POWK
 - [ ] UNM
-- [ ] LEN
