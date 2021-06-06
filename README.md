@@ -59,19 +59,20 @@ local constantPool = {
 - [x] DIV
 - [x] POW
 - [x] MOD
+- [x] NOT
+- [x] GETUPVAL
+- [x] SETUPVAL
+- [x] NEWTABLE
+- [x] LOADBOOL
 - [ ] VARARG
 - [ ] LT
 - [ ] TEST
 - [ ] JMP
 - [ ] EQ
 - [ ] NEQ
-- [ ] GETUPVAL
-- [ ] SETUPVAL
 - [ ] CLOSURE
 - [ ] SETENV / SETGLOBAL
-- [ ] NOT
 - [ ] GETTABLEK
-- [ ] LOADBOOL
 - [ ] LE
 - [ ] SETTABLEK
 - [ ] NLT
@@ -79,7 +80,6 @@ local constantPool = {
 - [ ] ADDK
 - [ ] MULK
 - [ ] TESTOR
-- [ ] NEWTABLE
 - [ ] TESTAND
 - [ ] SELF
 - [ ] POWK
